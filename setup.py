@@ -57,7 +57,7 @@ tests_require = [
 
 setup(
     name='dictdiffer',
-    version=version,
+    version='1.2.3',
     description='Dictdiffer is a helper module that helps you '
                 'to diff and patch dictionaries',
     author='Invenio Collaboration',
