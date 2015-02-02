@@ -43,10 +43,7 @@ def diff(first, second, node=None, ignore=None):
        Added *ignore* parameter.
     """
     node = node or []
-    if all(map(lambda x: isinstance(x, string_types), node)):
-        dotted_node = '.'.join(node)
-    else:
-        dotted_node = list(node)
+    dotted_node = list(node)
 
     differ = False
 
