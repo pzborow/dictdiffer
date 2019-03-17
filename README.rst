@@ -28,6 +28,10 @@ keys, instead of joining string keys with dots. With keys that contain dots
 themselves (``'a.b'``) the dotted path was ambiguous and hard to trace back to
 the right place. The version numbers were changed only for an internal package.
 
+This fork is no longer needed: upstream added the ``dot_notation`` argument of
+``diff()`` in version 0.8.0 (March 2019); ``diff(first, second,
+dot_notation=False)`` returns paths as lists.
+
 
 Installation
 ============
